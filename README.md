@@ -3,6 +3,11 @@ This is a simple project in go for testing a simple functions.
 
 In this project we can find unit testing. Also CI/CD with github actions for testing the project.
 
+We are using the following tools:
+
+- Go standard library
+- Testify for unit testing [See more](https://github.com/stretchr/testify)
+
 ## How to use
 
 ### Install the project
