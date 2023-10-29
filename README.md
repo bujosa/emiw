@@ -13,13 +13,23 @@ cd emiw
 
 ### Run the project
 ```bash
-go run main.go
+$ go run main.go
 ```
 
 ### Run the tests
 ```bash
-go test -v
+$ go test -v
 ```
 
+### Run the tests with coverage
+```bash
+$ go test -coverprofile=coverage ./...
+```
+
+### Run the tests with coverage and html
+```bash
+$ go test -coverprofile=coverage ./... 
+$ go tool cover -html=coverage
+```
 
 
